@@ -1,0 +1,391 @@
+img {
+  max-width: 100%;
+}
+body {
+  scroll-behavior: smooth;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* hadder start */
+.hadder {
+  background: #edecea;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.hadder h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+  cursor: pointer;
+  margin-left: 200px;
+}
+.hadder h1 span {
+  color: #83b735;
+}
+.hadder ul {
+  text-align: right;
+  margin-bottom: 0;
+  margin-right: 200px;
+}
+.hadder ul li {
+  display: inline-block;
+}
+.hadder ul li a {
+  display: block;
+  padding-right: 26px;
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+  font-weight: 400;
+  transition: 0.4s;
+}
+.hadder ul li a:hover {
+  color: #83b735;
+}
+/* hadder end */
+
+/* cover Start */
+.cover {
+  background-image: url(https://i.ibb.co/yhBqd69/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 300px 0;
+  background-attachment: fixed;
+}
+.cover h1 {
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-right: 154px;
+}
+.cover h1 span {
+  color: #83b735;
+}
+.cover p {
+  font-size: 19px;
+  margin: 40px 0;
+}
+.cover button {
+  background: #83b735;
+  padding: 12px 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  border-radius: 9px;
+}
+/* cover End */
+
+/* Products Start  */
+.products {
+  background: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+}
+.products p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #83b735;
+  margin: 0;
+  padding: 10px 0;
+  margin-top: 70px;
+}
+.products .names {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+  margin: 0;
+  padding-bottom: 50px;
+}
+.reyal {
+  position: relative;
+}
+.card {
+  border-radius: 50px 0 0 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  overflow: hidden;
+}
+.card img {
+  border-radius: 50px 0 0 0;
+  transition: 0.4s;
+}
+.card img:hover {
+  transform: scale(1.1, 1.1);
+}
+.upper {
+  padding: 20px 0;
+}
+.upbt {
+  padding-top: 30px;
+}
+.chair {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.dolar {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 10px;
+  color: #83b735;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.col-md-3 img {
+  width: 100%;
+}
+.serv {
+  padding: 10px 10px;
+}
+.serv li {
+  display: inline-block;
+  list-style: none;
+}
+.serv li i {
+  display: block;
+  color: #83b735;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.add {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+.add li {
+  display: inline-block;
+  list-style: none;
+}
+.add li i {
+  display: block;
+  color: white;
+  font-size: 18px;
+  background: #83b735;
+  padding: 10px 20px;
+  border-radius: 15px 0 0 0;
+  cursor: pointer;
+}
+.topp {
+  margin-top: 60px;
+}
+.photoss{
+  overflow: hidden;
+}
+/* Products End  */
+
+/* Update Products Start */
+.one .card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  overflow: hidden;
+  border-radius: 0 0 0 0;
+}
+.one .card img {
+  transition: 0.4s;
+  border-radius: 0 0 0 0;
+}
+.one .card .upper {
+  padding-top: 30px;
+}
+/* Update Products End */
+
+/* About Us  Start */
+.about {
+  text-align: left;
+  padding-top: 100px;
+}
+.about img {
+  border-radius: 10px;
+}
+.abouts {
+  padding-left: 100px;
+}
+.abouts .ads {
+  font-size: 20px;
+  color: #83b735;
+  font-weight: 500;
+  margin-top: 0;
+}
+.abouts h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-right: 39px;
+}
+.abouts p {
+  font-size: 20px;
+  color: black;
+  margin-top: 0;
+}
+button {
+  background: #83b735;
+  padding: 12px 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  border-radius: 9px;
+  margin-top: 20px;
+}
+/* About Us  End */
+
+/* Brands Start */
+.brand {
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+.brand .ups {
+  position: relative;
+  left: 0;
+  top: -22px;
+}
+.brand img {
+  width: 130px;
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+.brand img:hover {
+  filter: grayscale(0%);
+}
+.brand h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #83b735;
+  margin: 0;
+  padding: 10px 0;
+}
+.brand h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  margin: 0;
+  padding-bottom: 50px;
+}
+/* Brands End */
+
+/* Subscribe Start */
+.subscribe{
+  background-image: url(https://i.ibb.co/DRH5D19/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.subscribe h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 20px;
+  margin: 0;
+}
+.subscribe input {
+  width: 300px;
+  height: 51px;
+  padding: 20px;
+  border: 1px solid transparent;
+  margin-bottom: 37px;
+}
+.subscribe button {
+  background: #83b735;
+  padding: 12px 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 19px;
+  border: none;
+  margin-left: -6px;
+  border-radius: initial;
+}
+.subscribe input:focus {
+  outline: none;
+  box-shadow: 0 0 10px 0 #83b735;
+  border: 1px solid white;
+}
+/* Subscribe End */
+
+/* Foooter Start */
+.footer {
+  padding-top: 80px;
+}
+.footer .card {
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  text-align: left;
+  border-radius: 0 0 0 0;
+}
+.footer .card h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.footer .card h1 span {
+  color: #83b735;
+}
+.footer .card p {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: black;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+.footer ul {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.footer ul li {
+  display: inline-block;
+  list-style: none;
+}
+.footer ul li i {
+  display: block;
+  display: block;
+  color: Black;
+  font-size: 28px;
+  opacity: 0.8;
+  cursor: pointer;
+  padding-right: 25px;
+}
+.footer .oder {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.footer .oder li {
+  display: block;
+}
+.footer .oder li a {
+  font-size: 20px;
+  color: black;
+  transition: 0.4s;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  padding-bottom: 3px;
+}
+.footer .oder li a:hover {
+  color: #83b735;
+}
+footer .tit {
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+/* Foooter End */
